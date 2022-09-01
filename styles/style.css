@@ -326,7 +326,7 @@ margin:auto;
 .lg{
     position: absolute;
     height: 75px;
-    left: 100px;
+    left: 500px;
     top: 50px;
     min-width:15%;
     max-width:70%;
@@ -399,9 +399,9 @@ margin:auto;
 }
 .lg{
     position: absolute;
-     width:202px;
+    width:202px;
     height: 128px;
-    left: 15px;
+    left: 100px;
     top: 20px;
 }
 
