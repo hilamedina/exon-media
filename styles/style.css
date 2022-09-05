@@ -12,8 +12,9 @@ margin:auto;
 }
 .container{
 border:1px solid black;
+color:white;
 padding: 15px 0;
-box-shadow: 0px 51px 114px rgba(199, 199, 199, 0.15), 0px 15.375px 34.3677px rgba(199, 199, 199, 0.0895633), 0px 6.38599px 14.2746px rgba(199, 199, 199, 0.0605927), 0px 2.30969px 5.16283px rgba(199, 199, 199, 0.0352376); ;
+box-shadow: 0px 51px 114px rgba(199, 199, 199, 0.15), 0px 15.375px 34.3677px rgba(199, 199, 199, 0.0895633), 0px 6.38599px 14.2746px rgba(199, 199, 199, 0.0605927), 0px 2.30969px 5.16283px rgba(199, 199, 199, 0.0352376); 
 border-radius: 12px;
 position:relative;
 Width:100%;
@@ -43,13 +44,14 @@ padding:0 0 53px 0;
     position: absolute;
     width: 100px;
     height: 77px; 
-    right: -20px;
+    right: 0;
     top: -38px;
     font-weight: 700;
     font-size: 64px;
     color: rgba(85, 98, 110, 0.25);
 }
-.sony-p-3{
+
+.sony-p-2{
     display:none;
 }
 
@@ -59,7 +61,7 @@ padding:0 0 53px 0;
 }
 .lg-logo{
     margin-left:60px;
-    margin-top:120px;
+    margin-top:88px;
 }
 .sony{
     margin-left:60px;
@@ -74,11 +76,11 @@ padding:0 0 53px 0;
     height:20vh;
 }
 .rankNumber{
-    margin-top:10px;
+    margin-top:-7px;
     font-weight:700;
     font-size:24px;
     margin-left: 10px;
-    color:rgb(65, 63, 63);
+    color: #55626E;
     Offset: 0px, 51px  
 }
 .svg-i{
@@ -94,7 +96,6 @@ padding:0 0 53px 0;
     margin-bottom: 10px;
 
 }
-
 .fifty-Off{
     width:71px;
     height:21px;
@@ -113,16 +114,15 @@ padding:0 0 53px 0;
     display:none
 }
 .sony-p{
-    font-size:14px;
+    font-weight:500;
+    font-size: 14px;
     margin-left:24px;
-}
-.sony-p-2{
-    display:none;
-}
-.sony-p-3{
-    display:none;
+    letter-spacing: 0.2px;
+    line-height: 140%;
+    color: #55626E;
 }
 .view-deal{
+    border:none;
     width:290px;
     height:42px;
     background-color:#0B76E0;
@@ -145,13 +145,22 @@ padding:0 0 53px 0;
 .blue{
     display: none;
 }
-.sony2{
-    display:none;
-}
 .show-more-div{
     display:none;
 }
 .show-more-div-desktop{
+    display:none;
+}
+.sony-p-3{
+    display:none;
+}
+.sony2{
+    display:none;
+}
+.best-value-text{
+    display:none;
+}
+.fire{
     display:none;
 }
 /* /tablet */
@@ -174,8 +183,8 @@ padding:0 0 53px 0;
         height: 110px;
         left: 15px;
         top: 20px;
-        min-width:10%;
-        max-width:80%;
+        left: 15px;
+        top: 19px;
     }
     .sony-p{
        display:none;
@@ -189,16 +198,9 @@ padding:0 0 53px 0;
     .description{
         position:absolute;
         display: flex;
-        min-width:40%;
-        max-width:60%;
-        height:100%;
-        margin-left:130px;
-        margin-top:50px; 
-        font-weight:500;
-        font-size:0.8rem;  
-        color: #55626E;
-        right:200px;       
-    }ֿ
+        color: #55626E; 
+        left:210px;       
+    }
     .br{
         display:none;
     }
@@ -213,17 +215,18 @@ padding:0 0 53px 0;
         min-width:30%;
         max-width:70%; 
     }
-    .view-deal{
-        width: 110px;
-        height: 30px;
-        background-color:#0B76E0;
-        padding: 4px 40px; 
-        display:flex; 
-        text-align:center;
-        letter-spacing:0.2px;
-        color:white;
-        border-radius:12px;   
-    }
+.view-deal{
+    width: 171px;
+    height: 36px;
+font-weight: 700;
+line-height: 140%;
+text-align: right;
+letter-spacing: 0.2px;
+color: #FFFFFF;
+background: #0B76E0;
+border-radius: 12px;
+ padding: 4px 40px; 
+}
     .fifty-Off{
         display:none;
     }
@@ -239,21 +242,20 @@ padding:0 0 53px 0;
         position: absolute;
         width: 65px;
         height: 50px;
-        bottom:80px;
-        right:230px;
+        bottom:77px;
+        right:262px;
     }
     .on-amazon{
         margin-left:24px;
         font-weight: 400;
-        font-size: 12px; 
+        font-size: 14px; 
         color: #626E79;
      } 
      .blue{
         position:absolute;
         top:9px;
-        left:-6px;
+        left:-5.5px;
         display:block;
-   
     }
     .orange{
         display:none;
@@ -262,10 +264,10 @@ padding:0 0 53px 0;
       display:none;
     }
     .sony2{
+        border:1px solid red;
         font-weight: 400;
         font-size: 14px;
         display:flex;
-        margin-left:25px; 
         letter-spacing: 0.2px;
         margin-top:-9px;
         color: #626E79;
@@ -279,28 +281,104 @@ padding:0 0 53px 0;
         position:absolute;
         width: 140px;
         height: 32px;
-        left: -6px;
+        left: -5px;
         top:-15px;
         background: #D5EAFF;
         border-radius: 0px 8px 8px 0px;
     }
     .show-more-div{
+        /* position: absolute; */
         display:block;
-        margin-left:23px;
-        margin-top:auto;
-        margin-bottom: 16px;
-    }  
+        border:1px solid red;
+        /* margin-top: auto; */
+
+    } 
+    .show-more{
+    width: 68px;
+    height: 17px;
+   font-weight: 500;
+   font-size: 12px;
+   line-height: 140%;
+   letter-spacing: 0.2px;
+   color: #55626E;
+    } 
     .show-more-div-desktop{
         display:none;
     } 
+    .text-and-fire{
+         display:flex;
+         justify-content:center;
+         align-items:center; 
+    }
+    .best-value-text{
+        color:#0B76E0;
+        font-weight: 600;
+        font-size: 16px;
+        align-items: center;
+        font-weight: 600;
+        font-size: 16px;  
+        margin-top: 7px;
+    }
+    .fire{
+        width:14.16px;
+        height:18px;
+        margin-top:-12px;
+        margin-right:8px;
+    }
+    .sony-p-2{
+    display:block;
+    font-weight:500;
+    font-size: 14px;
+    line-height: 140%; 
+    letter-spacing: 0.2px;
+    color: #55626E;
+ } 
+ .text-and-fire{
+    display:flex;
+     justify-content:center;
+     align-items:center; 
+}
+.best-value-text{
+    display:block;
+    color:#0B76E0;
+    font-weight: 600;
+    font-size: 16px;
+    align-items: center;
+    font-weight: 600;
+    font-size: 16px;  
+    margin-top: 7px;
+}
+.fire{
+    display:block;
+    width:14.16px;
+    height:18px;
+    margin-top:-12px;
+    margin-right:8px;
+} 
+.rankNumber{
+    width: 32px;
+    height: 28px;
+    font-weight: 700;
+   font-size: 20px;
+   line-height: 140%;
+   text-align: center;
+   color: #55626E;
+ }
+ .star-size{
+    width: 8.19px;
+    height: 8.19px;
+ }
+ .stars{
+
+    width: 80px;
+    height: 11.08px;  
+ }
 }
 @media screen and (min-width:1024px){
  body{
-     /* width:100vw; */
      height:176px;
      font-family:Inter;
      display:flex;
-
 margin:auto;
  }
  .container{
@@ -328,7 +406,6 @@ margin:auto;
     height: 108px;
     left: 12px;
     top: 34px;
-    /* margin-top:100px; */
     font-weight: 700;
     font-size: 80px;
     color: rgba(85, 98, 110, 0.25);
@@ -363,12 +440,14 @@ height: 20px;
     display:none;
 }
 .show-more-div-desktop{
+    margin-top: -29px;
     display:block;
      margin-left:180px;
-     margin-top:-67px;
      font-weight: 400;
      font-size: 14px; 
      color: #55626E;
+     font-weight: 600;
+     font-size: 14px;
 }
 .deal-and-amazon{
     position:absolute;
@@ -385,7 +464,7 @@ height: 20px;
     margin-right:160px;
     font-weight: 400;
     font-size: 14px; 
-    margin-bottom:50px;
+    margin-top: 21px;
     color: #55626E;
  }
  .view-deal{
@@ -427,10 +506,11 @@ height: 20px;
     margin-left:24px;
     margin-top:15px;
     line-height: 140%;
- 
    letter-spacing: 0.2px; 
    color: #55626E;
-
+}
+.sony-p-2{
+  display:none;  
 }
 .rankNumber{
  width: 52px;
@@ -446,7 +526,7 @@ color: #55626E;
  }
  .star-size{
     width: 11.08px;
-height: 11.08px;
+    height: 11.08px;
  }
  .stars{
     margin-top:8px;
@@ -463,8 +543,30 @@ height: 11.08px;
         top:-15px;
         background: #D5EAFF;
         border-radius: 0px 8px 8px 0px;
+    }
+    .text-and-fire{
+        display:flex;
+         justify-content:center;
+         align-items:center; 
+    }
+    .best-value-text{
+        display:block;
         color:#0B76E0;
         font-weight: 600;
         font-size: 16px;
+        align-items: center;
+        font-weight: 600;
+        font-size: 16px;  
+        margin-top: 7px;
+    }
+    .fire{
+        display:block;
+        width:14.16px;
+        height:18px;
+        margin-top:-12px;
+        margin-right:8px;
+    }
+    .sony2{
+        display:none;
     }
 }
