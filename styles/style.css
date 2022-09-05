@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 body{
 width:100vw;
 height:642px;
@@ -49,6 +49,9 @@ padding:0 0 53px 0;
     font-size: 64px;
     color: rgba(85, 98, 110, 0.25);
 }
+.sony-p-3{
+    display:none;
+}
 
 .logo-and-rank{
     display:flex;
@@ -89,6 +92,7 @@ padding:0 0 53px 0;
 }
 .stars{
     margin-bottom: 10px;
+
 }
 
 .fifty-Off{
@@ -113,6 +117,9 @@ padding:0 0 53px 0;
     margin-left:24px;
 }
 .sony-p-2{
+    display:none;
+}
+.sony-p-3{
     display:none;
 }
 .view-deal{
@@ -176,13 +183,8 @@ padding:0 0 53px 0;
     .br2{
         display:none;
     }
-    .sony-p-2{
-        display:block;
-        font-size:14px;
-        margin-left:24px;
-        margin-top:15px;
-        letter-spacing:0.2px;
-        line-height:19.6px;
+    .sony-p-3{
+        display:none;
     }
     .description{
         position:absolute;
@@ -248,8 +250,8 @@ padding:0 0 53px 0;
      } 
      .blue{
         position:absolute;
-        top:4px;
-        left:-7px;
+        top:9px;
+        left:-6px;
         display:block;
    
     }
@@ -260,12 +262,13 @@ padding:0 0 53px 0;
       display:none;
     }
     .sony2{
+        font-weight: 400;
+        font-size: 14px;
         display:flex;
-        margin-left:25px;
-        font-weight:400;
-        font-size: 14px; 
+        margin-left:25px; 
+        letter-spacing: 0.2px;
+        margin-top:-9px;
         color: #626E79;
-        margin-top:-1px;
     }
     .best-choice{
         display:none;
@@ -273,11 +276,15 @@ padding:0 0 53px 0;
     .best-value{
         display:block;
         position:absolute;
-        width: 104px;
-        height: 28px;
+        width: 140px;
+        height: 32px;
         left: -6px;
         top:-15px;
     } 
+    .best-img{
+        width: 140px;
+        height: 32px;
+    }
     .show-more-div{
         display:block;
         margin-left:23px;
@@ -309,19 +316,27 @@ margin:auto;
     align-self: flex-start;
     width:40%;
     height:100%;
-    left:230px;
+    left:202px;
     margin-top:50px; 
     font-weight:500;
     font-size:0.8rem;  
     color: #55626E;
-    right:200px;    
+    /* right:200px;     */
 
 }
 .zero-one{
-    left: 10px;
-    margin-top:100px;
+   
+    line-height: 135%;
+    font-style: normal;
+ 
+    width: 95px;
+    height: 108px;
+    left: 12px;
+    top: 34px;
+    /* margin-top:100px; */
     font-weight: 700;
-    font-size: 50px;
+    font-size: 80px;
+    color: rgba(85, 98, 110, 0.25);
 }
 .lg{
     position: absolute;
@@ -333,15 +348,18 @@ margin:auto;
 }
 .fifty-Off-desktop{
     display:block;
-    width:71px;
-    height:21px;
+    width: 62px;
+height: 20px;
     padding:2px 4px 2px 4px;
     background-color:#55A0EA;
     fill:solid;
     color:white;
-    font-size:15px;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.2px;
     border-radius:4px;
     margin-left:24px;
+    text-align: center;
     display:flex;
     justify-content:center;
     align-items:center; 
@@ -351,7 +369,7 @@ margin:auto;
 }
 .show-more-div-desktop{
     display:block;
-     margin-left:140px;
+     margin-left:180px;
      margin-top:-67px;
      font-weight: 400;
      font-size: 14px; 
@@ -363,24 +381,26 @@ margin:auto;
     flex-direction: column;
     justify-content: center; 
     align-items: center;
-    right:10px;
+    right:-1px;
     top:60px;
     min-width:30%;
     max-width:70%; 
 }
 .on-amazon{
-    margin-right:120px;
+    margin-right:150px;
     font-weight: 400;
     font-size: 14px; 
     margin-bottom:50px;
     color: #55626E;
  }
  .view-deal{
-    width: 110px;
-    height: 30px;
+    width: 246px;
+    height: 44px;
+    border:none;
     background-color:#0B76E0;
     padding: 4px 40px; 
     display:flex; 
+    font-weight: bold;
     text-align:center;
     letter-spacing:0.2px;
     color:white;
@@ -394,11 +414,48 @@ margin:auto;
     bottom:80px;
     right:300px;
 }
+
 .lg{
     position: absolute;
     width:202px;
-    height: 128px;
-    left: 100px;
+    height:128px;
+    left: 131px;
     top: 20px;
 }
+.sony-p-3{
+    display:block;
+    font-style: normal;
+    width: 277px;
+    height: 44px;
+    font-weight:500;
+    font-size: 16px;   
+    margin-left:24px;
+    margin-top:15px;
+    line-height: 140%;
+ 
+   letter-spacing: 0.2px; 
+   color: #55626E;
+
+}
+.rankNumber{
+ width: 52px;
+height: 39px;
+font-weight: 700;
+font-size: 32.8165px;
+color: #55626E;
+}
+.svg-i{
+    position: absolute;
+    left: 57px;
+    top: 5px;
+ }
+ .star-size{
+    width: 11.08px;
+height: 11.08px;
+ }
+ .stars{
+    margin-top:8px;
+    width: 80px;
+    height: 11.08px;  
+ }
 }
