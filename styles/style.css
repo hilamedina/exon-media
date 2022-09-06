@@ -493,7 +493,6 @@ margin:auto;
     bottom:80px;
     right:300px;
 }
-
 .lg{
     position: absolute;
     width:202px;
@@ -502,7 +501,6 @@ margin:auto;
     top: 20px;
 }
 .sony-p-3{
-
     display:block;
     font-style: normal;
     width: 277px;
@@ -512,8 +510,8 @@ margin:auto;
     margin-left:154px;
     margin-top:15px;
     line-height: 140%;
-   letter-spacing: 0.2px; 
-   color: #55626E;
+    letter-spacing: 0.2px; 
+    color: #55626E;
 }
 .sony-p-2{
   display:none;  
