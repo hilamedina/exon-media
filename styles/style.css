@@ -182,9 +182,9 @@ padding:0 0 53px 0;
         position: absolute;
         height: 110px;
         left: 15px;
-        top: 20px;
+        top: 30px;
         left: 15px;
-        top: 19px;
+      
     }
     .sony-p{
        display:none;
@@ -246,11 +246,16 @@ border-radius: 12px;
         right:262px;
     }
     .on-amazon{
-        margin-left:24px;
-        font-weight: 400;
-        font-size: 14px; 
-        color: #626E79;
-     } 
+    width: 80px;
+    height: 17px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 140%;
+    /* text-align: right; */
+    letter-spacing: 0.2px;
+    color: #626E79;
+    margin-left:5px;
+    } 
      .blue{
         position:absolute;
         top:9px;
@@ -421,7 +426,7 @@ margin:auto;
 .fifty-Off-desktop{
     display:block;
     width: 62px;
-height: 20px;
+    height: 20px;
     padding:2px 4px 2px 4px;
     background-color:#55A0EA;
     fill:solid;
@@ -430,7 +435,7 @@ height: 20px;
     font-size: 14px;
     letter-spacing: 0.2px;
     border-radius:4px;
-    margin-left:24px;
+    margin-left:154px;
     text-align: center;
     display:flex;
     justify-content:center;
@@ -461,7 +466,7 @@ height: 20px;
     max-width:70%; 
 }
 .on-amazon{
-    margin-right:160px;
+    margin-right:140px;
     font-weight: 400;
     font-size: 14px; 
     margin-top: 21px;
@@ -497,13 +502,14 @@ height: 20px;
     top: 20px;
 }
 .sony-p-3{
+
     display:block;
     font-style: normal;
     width: 277px;
     height: 44px;
     font-weight:500;
     font-size: 16px;   
-    margin-left:24px;
+    margin-left:154px;
     margin-top:15px;
     line-height: 140%;
    letter-spacing: 0.2px; 
