@@ -266,7 +266,6 @@ body {
     top: 45px;
     min-width: 30%;
     max-width: 70%;
-    /* border: 1px solid green; */
     height:70px;
   }
 
@@ -305,7 +304,6 @@ body {
     height: 50px;
     bottom: 35px;
     right: 35%;
-    /* border:1px solid blue; */
   }
 
   .on-amazon {
@@ -396,7 +394,7 @@ body {
     line-height: 140%;
     letter-spacing: 0.2px;
     color: #55626e;
-    /* border:1px solid red; */
+
   }
   
   .best-value-text {
@@ -404,7 +402,6 @@ body {
     color: #0b76e0;
     font-weight: 600;
     font-size: 16px;
-    /* text-align: center; */
     align-items: center;
     font-weight: 600;
     font-size: 12px;
@@ -461,7 +458,6 @@ body {
     font-weight: 500;
     font-size: 0.8rem;
     color: #55626e;
-    /* border: 1px solid black; */
   }
 
   .zero-one {
@@ -518,11 +514,9 @@ body {
     margin-left: 180px;
     font-size: 14px;
     color: #55626e;
-    /* border: 1px solid blue; */
   }
 
   .show-more {
-    /* border: 1px solid red; */
     width: 88px;
     height: 20px;
     font-weight:600;
