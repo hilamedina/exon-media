@@ -1,576 +1,669 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
-body{
-width:100vw;
-height:642px;
-font-family:Inter;
-display:flex;
-justify-content: space-around;
-margin:auto;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+body {
+  width: 100vw;
+  height: 642px;
+  font-family: Inter;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
 }
-.fifty-Off-desktop{
-    display:none
+.fifty-Off-desktop {
+  display: none;
 }
-.container{
-border:1px solid black;
-color:white;
-padding: 15px 0;
-box-shadow: 0px 51px 114px rgba(199, 199, 199, 0.15), 0px 15.375px 34.3677px rgba(199, 199, 199, 0.0895633), 0px 6.38599px 14.2746px rgba(199, 199, 199, 0.0605927), 0px 2.30969px 5.16283px rgba(199, 199, 199, 0.0352376); 
-border-radius: 12px;
-position:relative;
-Width:100%;
-height:375px;
-margin:0 35px;
-margin-top:42px;
-border-radius :12px;
-display:flex;
-flex-direction:column;
-justify-content: center;
-padding:0 0 53px 0;
-}
-.best-choice{
-    position:absolute;
-    top:-16px;
-    left:-6px;
-}
-.best-choicebest-value-div{
-    display:none;
-}
-.orange{
-    position:absolute;
-    left:-6px;
-    top:6px;
-}
-.zero-one{
-    position: absolute;
-    width: 100px;
-    height: 77px; 
-    right: 0;
-    top: -38px;
-    font-weight: 700;
-    font-size: 64px;
-    color: rgba(85, 98, 110, 0.25);
+.container {
+  border: 1px solid black;
+  color: white;
+  box-shadow: 0px 51px 114px rgba(199, 199, 199, 0.15),
+    0px 15.375px 34.3677px rgba(199, 199, 199, 0.0895633),
+    0px 6.38599px 14.2746px rgba(199, 199, 199, 0.0605927),
+    0px 2.30969px 5.16283px rgba(199, 199, 199, 0.0352376);
+  border-radius: 12px;
+  position: relative;
+  width: 100%;
+  height: 375px;
+  margin: 0 20px;
+  margin-top: 42px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.sony-p-2{
-    display:none;
+.best-choice {
+  position: absolute;
+  top: -16px;
+  left: -6px;
 }
 
-.logo-and-rank{
-    display:flex;
-    justify-content:center; 
+.best-choicebest-value-div {
+  display: none;
 }
-.lg-logo{
-    margin-left:60px;
-    margin-top:88px;
-}
-.sony{
-    margin-left:60px;
-    font-weight:400;
-    font-size: 14px; 
-    color: #626E79;
-}
-.stars-and-rank{
-    position:relative;
-    margin-top:135px;
-    margin-left:16px;
-    height:20vh;
-}
-.rankNumber{
-    margin-top:-7px;
-    font-weight:700;
-    font-size:24px;
-    margin-left: 10px;
-    color: #55626E;
-    Offset: 0px, 51px  
-}
-.svg-i{
-   position:absolute;
-   left:52px;
-   top:1px;
-}
-.description{
-    display:flex;
-    flex-direction:column;
-}
-.stars{
-    margin-bottom: 10px;
 
+.orange {
+  position: absolute;
+  left: -6px;
+  top: 5px;
 }
-.fifty-Off{
-    width:71px;
-    height:21px;
-    padding:2px 4px 2px 4px;
-    background-color:#55A0EA;
-    fill:solid;
-    color:white;
-    font-size:15px;
-    border-radius:4px;
-    margin-left:24px;
-    display:flex;
-    justify-content:center;
-    align-items:center; 
+
+.zero-one {
+  position: absolute;
+  width: 100px;
+  height: 77px;
+  right: 0;
+  top: -38px;
+  font-weight: 700;
+  font-size: 64px;
+  color: rgba(85, 98, 110, 0.25);
 }
-.fifty-off-desktop{
-    display:none
+
+.sony-p-2 {
+  display: none;
 }
-.sony-p{
-    font-weight:500;
-    font-size: 14px;
-    margin-left:24px;
-    letter-spacing: 0.2px;
-    line-height: 140%;
-    color: #55626E;
+
+.logo-and-rank {
+  display: flex;
+  justify-content: center;
 }
-.view-deal{
-    border:none;
-    width:290px;
-    height:42px;
-    background-color:#0B76E0;
-    text-align:center;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    margin:auto;
-    letter-spacing:0.2px;
-    color:white;
-    border-radius:10px;
-    margin:0 20px;
+
+.lg-logo {
+  margin-left: 90px;
+  margin-top: 46px;
+  height:80%;
 }
-.on-amazon{
-   margin-left:24px;
-   font-weight: 400;
-   font-size: 14px; 
-   color: #55626E;
-} 
-.blue{
-    display: none;
+
+.sony {
+  margin-left: 60px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #626e79;
+  margin-top:5px;
 }
-.show-more-div{
-    display:none;
+
+.stars-and-rank {
+  width: 65px;
+  height: 60px;
+  position: relative;
+  margin-top: 75px;
+  margin-left: 12px;
+  display:flex;
+  flex-direction: column;
 }
-.show-more-div-desktop{
-    display:none;
+
+.rankNumber {
+  margin-top: 0px;
+  font-weight: 700;
+  font-size: 24px;
+  margin-left: 16px;
+  margin-bottom: 4px;
+  color: #55626e;
 }
-.sony-p-3{
-    display:none;
+
+.svg-i {
+  position: absolute;
+  left: 52px;
+  top: -7px;
 }
-.sony2{
-    display:none;
+
+.stars {
+  width: 65px;
 }
-.best-value-text{
-    display:none;
+
+.description {
+  height:100%;
 }
-.fire{
-    display:none;
+
+.fifty-Off {
+  width: 61px;
+  padding:2px 4px;
+  line-height: 16.8px;
+  font-family: Inter;
+  background-color: #55a0ea;
+  fill: solid;
+  color: white;
+  font-size: 12px;
+  border-radius: 4px;
+  margin-left: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 53px;
+  height: 17px;  
 }
+
+.fifty-off-desktop {
+  display: none;
+}
+
+.sony-p {
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: 0px;
+  letter-spacing: 0.2px;
+  line-height: 140%;
+  color: #55626e;
+  padding: 0 24px;
+  margin-top:3px;
+  height:40px;
+}
+
+.deal-and-amazon{
+  margin-top:10px;
+  height: 100%;
+}
+
+.view-deal {
+  border: none;
+  width: 300px;
+  height: 42px;
+  background-color: #0b76e0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 0.2px;
+  color: white;
+  border-radius: 12px;
+  margin: 0 20px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom:16px;
+}
+
+.on-amazon {
+  margin-left: 24px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #55626e;
+}
+
+.blue {
+  display: none;
+}
+
+.show-more-div {
+  display: none;
+}
+
+.show-more-div-desktop {
+  display: none;
+}
+
+.sony-p-3 {
+  display: none;
+}
+
+.sony2 {
+  display: none;
+}
+
+.best-value-text {
+  display: none;
+}
+
+.fire {
+  display: none;
+}
+
+
 /* /tablet */
-@media screen and (min-width:720px){
-    body{
-        justify-content: space-around;
-        width:100vw;
-        height:378px; 
-        font-family:Inter;
-        display:flex;
-        margin:auto;
-    }
-    .container{
-        height:132px;
-        position:relative;
-        Width:100%;
-    }
-    .lg{
-        position: absolute;
-        height: 110px;
-        left: 15px;
-        top: 30px;
-        left: 15px;
-      
-    }
-    .sony-p{
-       display:none;
-    }
-    .br2{
-        display:none;
-    }
-    .sony-p-3{
-        display:none;
-    }
-    .description{
-        position:absolute;
-        display: flex;
-        color: #55626E; 
-        left:210px;       
-    }
-    .br{
-        display:none;
-    }
-    .deal-and-amazon{
-        position:absolute;
-        display: flex; 
-        flex-direction: column;
-        justify-content: center; 
-        align-items: center;
-        right:-10px;
-        top:60px;
-        min-width:30%;
-        max-width:70%; 
-    }
-.view-deal{
+@media screen and (min-width: 720px) {
+  body {
+    justify-content: space-around;
+    width: 100vw;
+    height: 378px;
+    display: flex;
+    margin: auto;
+  }
+
+  .container {
+    height: 132px;
+    position: relative;
+    width: 100%;
+    margin: auto 24px;
+  }
+
+  .lg {
+    position: absolute;
+    width: 118px;
+    height: 75px;
+    left: 15px;
+    top: 24px;
+    left: 15px;
+  }
+
+  .sony-p {
+    display: none;
+  }
+
+  .br2 {
+    display: none;
+  }
+
+  .sony-p-3 {
+    display: none;
+  }
+
+  .description {
+    position: absolute;
+    font-weight: 500;
+    font-size: 14px;
+    display: flex;
+    color: #55626e;
+    left: 158px;
+    top:0;
+  }
+
+  .br {
+    display: none;
+  }
+
+  .deal-and-amazon {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    right: 0px;
+    top: 45px;
+    min-width: 30%;
+    max-width: 70%;
+    border: 1px solid green;
+    height:70px;
+  }
+
+  .view-deal {
     width: 171px;
     height: 36px;
-font-weight: 700;
-line-height: 140%;
-text-align: right;
-letter-spacing: 0.2px;
-color: #FFFFFF;
-background: #0B76E0;
-border-radius: 12px;
- padding: 4px 40px; 
-}
-    .fifty-Off{
-        display:none;
-    }
-    .fifty-off-desktop{
-        display:none
-    }
-    .zero-one{
-        top: -30px;
-        font-weight: 700;
-        font-size: 50px;
-    }
-    .stars-and-rank{
-        position: absolute;
-        width: 65px;
-        height: 50px;
-        bottom:77px;
-        right:262px;
-    }
-    .on-amazon{
+    font-weight: 700;
+    line-height: 140%;
+    font-size: 14px;
+    text-align: right;
+    letter-spacing: 0.2px;
+    color: #ffffff;
+    background: #0b76e0;
+    border-radius: 12px;
+    padding: 10px 40px;
+    margin-bottom:0;
+  }
+
+  .fifty-Off {
+    display: none;
+  }
+
+  .fifty-off-desktop {
+    display: none;
+  }
+
+  .zero-one {
+    top: -30px;
+    font-weight: 700;
+    font-size: 50px;
+  }
+
+  .stars-and-rank {
+    position: absolute;
+    width: 65px;
+    height: 50px;
+    bottom: 35px;
+    right: 35%;
+    border:1px solid blue;
+  }
+
+  .on-amazon {
     width: 80px;
     height: 17px;
     font-weight: 400;
     font-size: 12px;
     line-height: 140%;
-    /* text-align: right; */
     letter-spacing: 0.2px;
-    color: #626E79;
-    margin-left:5px;
-    } 
-     .blue{
-        position:absolute;
-        top:9px;
-        left:-5.5px;
-        display:block;
-    }
-    .orange{
-        display:none;
-    }
-    .sony{
-      display:none;
-    }
-    .sony2{
-        border:1px solid red;
-        font-weight: 400;
-        font-size: 14px;
-        display:flex;
-        letter-spacing: 0.2px;
-        margin-top:-9px;
-        color: #626E79;
-    }
-    .best-choice{
-        display:none;
-    } 
-    .best-value-div{
-        position: absolute;
-        display:block;
-        position:absolute;
-        width: 140px;
-        height: 32px;
-        left: -5px;
-        top:-15px;
-        background: #D5EAFF;
-        border-radius: 0px 8px 8px 0px;
-    }
-    .show-more-div{
-        /* position: absolute; */
-        display:block;
-        border:1px solid red;
-        /* margin-top: auto; */
+    color: #626e79;
+    margin-left: 5px;
+  }
 
-    } 
-    .show-more{
+  .blue {
+    position: absolute;
+    top: 7px;
+    left: -7px;
+    display: block;
+  }
+
+  .orange {
+    display: none;
+  }
+
+  .sony {
+    display: none;
+  }
+
+  .sony2 {
+    height:20px;
+    font-weight: 400;
+    font-size: 12px;
+    display: flex;
+    letter-spacing: 0.2px;
+    color: #626e79;
+    position:absolute;
+    top:48px;
+  }
+
+  .best-choice {
+    display: none;
+  }
+
+  .best-value-div {
+    position: absolute;
+    display: block;
+    position: absolute;
+    width: 104px;
+    height: 32px;
+    left: -5px;
+    top: -15px;
+    background: #d5eaff;
+    border-radius: 0px 8px 8px 0px;
+  }
+
+  .show-more-div {
+    display:inline;
+    border: 1px solid pink;
+    margin-left:-215px;
+    margin-top: auto;
+    margin-bottom: 10px;
+  }
+
+  .show-more {
     width: 68px;
     height: 17px;
-   font-weight: 500;
-   font-size: 12px;
-   line-height: 140%;
-   letter-spacing: 0.2px;
-   color: #55626E;
-    } 
-    .show-more-div-desktop{
-        display:none;
-    } 
-    .text-and-fire{
-         display:flex;
-         justify-content:center;
-         align-items:center; 
-    }
-    .best-value-text{
-        color:#0B76E0;
-        font-weight: 600;
-        font-size: 16px;
-        align-items: center;
-        font-weight: 600;
-        font-size: 16px;  
-        margin-top: 7px;
-    }
-    .fire{
-        width:14.16px;
-        height:18px;
-        margin-top:-12px;
-        margin-right:8px;
-    }
-    .sony-p-2{
-    display:block;
-    font-weight:500;
-    font-size: 14px;
-    line-height: 140%; 
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 140%;
     letter-spacing: 0.2px;
-    color: #55626E;
- } 
- .text-and-fire{
-    display:flex;
-     justify-content:center;
-     align-items:center; 
-}
-.best-value-text{
-    display:block;
-    color:#0B76E0;
+    color: #55626e;
+  }
+
+  .show-more-div-desktop {
+    display: none;
+  }
+
+  .text-and-fire {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .sony-p-2 {
+    height:80px;
+    display: block;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+    color: #55626e;
+    border:1px solid red;
+  }
+  
+  .best-value-text {
+    display: block;
+    color: #0b76e0;
     font-weight: 600;
     font-size: 16px;
     align-items: center;
     font-weight: 600;
-    font-size: 16px;  
+    font-size: 12px;
     margin-top: 7px;
-}
-.fire{
-    display:block;
-    width:14.16px;
-    height:18px;
-    margin-top:-12px;
-    margin-right:8px;
-} 
-.rankNumber{
+  }
+
+  .fire {
+    display: block;
+    width: 14.16px;
+    height: 18px;
+    margin-top: -7px;
+    margin-right: 8px;
+  }
+
+  .rankNumber {
     width: 32px;
     height: 28px;
     font-weight: 700;
-   font-size: 20px;
-   line-height: 140%;
-   text-align: center;
-   color: #55626E;
- }
- .star-size{
+    font-size: 20px;
+    line-height: 140%;
+    text-align: center;
+    color: #55626e;
+  }
+
+  .star-size {
     width: 8.19px;
     height: 8.19px;
- }
- .stars{
+  }
 
+  .stars {
     width: 80px;
-    height: 11.08px;  
- }
+    height: 11.08px;
+  }
 }
-@media screen and (min-width:1024px){
- body{
-     height:176px;
-     font-family:Inter;
-     display:flex;
-margin:auto;
- }
- .container{
-    height:132px;
-    position:relative;
-    Width:1024px;
-}
-.description{
-    position:absolute;
+
+@media screen and (min-width: 1024px) {
+  body {
+    font-family: Inter;
     display: flex;
-    justify-content:flex-start;
-    align-self: flex-start;
-    width:40%;
-    height:100%;
-    left:202px;
-    margin-top:50px; 
-    font-weight:500;
-    font-size:0.8rem;  
-    color: #55626E;
-}
-.zero-one{
+    margin: auto;
+  }
+
+  .container {
+    height: 132px;
+    position: relative;
+    width: 1024px;
+    height:176px;
+  }
+
+  .description {
+    position: absolute;
+    display: flex;
+    left: 202px;
+    font-weight: 500;
+    font-size: 0.8rem;
+    color: #55626e;
+    border: 1px solid black;
+  }
+
+  .zero-one {
     line-height: 135%;
     font-style: normal;
     width: 95px;
     height: 108px;
     left: 12px;
-    top: 34px;
+    top: 30px;
     font-weight: 700;
     font-size: 80px;
     color: rgba(85, 98, 110, 0.25);
-}
-.lg{
+  }
+
+  .lg {
     position: absolute;
     height: 75px;
     left: 500px;
     top: 50px;
-    min-width:15%;
-    max-width:70%;
-}
-.fifty-Off-desktop{
-    display:block;
+    min-width: 15%;
+    max-width: 70%;
+  }
+
+  .fifty-Off-desktop {
+    display: block;
     width: 62px;
     height: 20px;
-    padding:2px 4px 2px 4px;
-    background-color:#55A0EA;
-    fill:solid;
-    color:white;
+    padding: 2px 4px 2px 4px;
+    background-color: #55a0ea;
+    fill: solid;
+    color: white;
     font-weight: 400;
     font-size: 14px;
     letter-spacing: 0.2px;
-    border-radius:4px;
-    margin-left:154px;
+    border-radius: 4px;
+    position: absolute;
+    top:105px;
+    left:150px;
     text-align: center;
-    display:flex;
-    justify-content:center;
-    align-items:center; 
-}
-.show-more-div{
-    display:none;
-}
-.show-more-div-desktop{
-    margin-top: -29px;
-    display:block;
-     margin-left:180px;
-     font-weight: 400;
-     font-size: 14px; 
-     color: #55626E;
-     font-weight: 600;
-     font-size: 14px;
-}
-.deal-and-amazon{
-    position:absolute;
-    display: flex; 
-    flex-direction: column;
-    justify-content: center; 
+    display: flex;
+    justify-content: center;
     align-items: center;
-    right:-1px;
-    top:60px;
-    min-width:30%;
-    max-width:70%; 
-}
-.on-amazon{
-    margin-right:140px;
+  }
+
+  .show-more-div {
+    display: none;
+  }
+
+  .show-more-div-desktop {
+    margin-top: -30px;
+    display: block;
+    margin-left: 180px;
+    font-size: 14px;
+    color: #55626e;
+  }
+
+  .show-more {
+    width: 88px;
+    height: 20px;
+    font-weight: 600;
+    font-size: 14px;
+  }
+
+  .deal-and-amazon {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    right: -3px;
+    top: 62px;
+  }
+
+  .on-amazon {
+    margin-right: 140px;
     font-weight: 400;
-    font-size: 14px; 
+    font-size: 14px;
     margin-top: 21px;
-    color: #55626E;
- }
- .view-deal{
-    width: 246px;
+    color: #55626e;
+  }
+
+  .view-deal {
+    width: 246.3px;
     height: 44px;
-    border:none;
-    background-color:#0B76E0;
-    padding: 4px 40px; 
-    display:flex; 
+    border: none;
+    background-color: #0b76e0;
+    display: flex;
     font-weight: bold;
-    text-align:center;
-    letter-spacing:0.2px;
-    color:white;
-    border-radius:12px;
-    margin-left:50px;   
-}
-.stars-and-rank{
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: white;
+    border-radius: 12px;
+    margin-left: 50px;
+    font-weight: 700;
+    font-size: 16px;
+  }
+
+  .stars-and-rank {
     position: absolute;
-    width: 65px;
-    height:50px;
-    bottom:80px;
-    right:300px;
-}
-.lg{
+    width: 67px;
+    height: 60px;
+    bottom: 70px;
+    right: 300px;
+    left: 62%;
+  }
+
+  .lg {
     position: absolute;
-    width:202px;
-    height:128px;
+    width: 202px;
+    height: 128px;
     left: 131px;
     top: 20px;
-}
-.sony-p-3{
-    display:block;
+  }
+
+  .sony-p-3 {
+    display: block;
     font-style: normal;
     width: 277px;
     height: 44px;
-    font-weight:500;
-    font-size: 16px;   
-    margin-left:154px;
-    margin-top:15px;
+    font-weight: 600;
+    font-size: 16px;
+    margin-left: 154px;
+    margin-top: 15px;
     line-height: 140%;
-    letter-spacing: 0.2px; 
-    color: #55626E;
-}
-.sony-p-2{
-  display:none;  
-}
-.rankNumber{
- width: 52px;
-height: 39px;
-font-weight: 700;
-font-size: 32.8165px;
-color: #55626E;
-}
-.svg-i{
+    letter-spacing: 0.2px;
+    color: #55626e;
+  }
+
+  .sony-p-2 {
+    display: none;
+  }
+
+  .rankNumber {
+    width: 52px;
+    height: 39px;
+    font-weight: 700;
+    font-size: 32.8165px;
+    color: #55626e;
+  }
+
+  .svg-i {
     position: absolute;
     left: 57px;
-    top: 5px;
- }
- .star-size{
-    width: 11.08px;
-    height: 11.08px;
- }
- .stars{
-    margin-top:8px;
-    width: 80px;
-    height: 11.08px;  
- }
- .best-value-div{
-        position: absolute;
-        display:block;
-        position:absolute;
-        width: 140px;
-        height: 32px;
-        left: -6px;
-        top:-15px;
-        background: #D5EAFF;
-        border-radius: 0px 8px 8px 0px;
-    }
-    .text-and-fire{
-        display:flex;
-         justify-content:center;
-         align-items:center; 
-    }
-    .best-value-text{
-        display:block;
-        color:#0B76E0;
-        font-weight: 600;
-        font-size: 16px;
-        align-items: center;
-        font-weight: 600;
-        font-size: 16px;  
-        margin-top: 7px;
-    }
-    .fire{
-        display:block;
-        width:14.16px;
-        height:18px;
-        margin-top:-12px;
-        margin-right:8px;
-    }
-    .sony2{
-        display:none;
-    }
+    top: -10px;
+  }
+  
+  .one {
+    margin-left: -3px;
+  }
+  
+  .left {
+    margin-left: 10px;
+  }
+
+  .stars {
+    margin-top: 5px;
+    width: 70px;
+    height: 18px;
+  }
+
+  .best-value-div {
+    position: absolute;
+    display: block;
+    position: absolute;
+    width: 140px;
+    height: 32px;
+    left: -6px;
+    top: -15px;
+    background: #d5eaff;
+    border-radius: 0px 8px 8px 0px;
+  }
+ 
+  .text-and-fire {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .best-value-text {
+    display: block;
+    color: #0b76e0;
+    font-weight: 600;
+    font-size: 16px;
+    align-items: center;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 7px;
+  }
+
+  .fire {
+    display: block;
+    width: 14.16px;
+    height: 18px;
+    margin-top: -12px;
+    margin-right: 8px;
+  }
+
+  .sony2 {
+    width: 277px;
+    margin-left: 153px;
+    font-weight: 500;
+    font-size: 14px;
+  }
 }
