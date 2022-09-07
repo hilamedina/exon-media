@@ -11,7 +11,6 @@ body {
   display: none;
 }
 .container {
-  border: 1px solid black;
   color: white;
   box-shadow: 0px 51px 114px rgba(199, 199, 199, 0.15),
     0px 15.375px 34.3677px rgba(199, 199, 199, 0.0895633),
@@ -267,7 +266,7 @@ body {
     top: 45px;
     min-width: 30%;
     max-width: 70%;
-    border: 1px solid green;
+    /* border: 1px solid green; */
     height:70px;
   }
 
@@ -306,7 +305,7 @@ body {
     height: 50px;
     bottom: 35px;
     right: 35%;
-    border:1px solid blue;
+    /* border:1px solid blue; */
   }
 
   .on-amazon {
@@ -364,7 +363,6 @@ body {
 
   .show-more-div {
     display:inline;
-    border: 1px solid pink;
     margin-left:-215px;
     margin-top: auto;
     margin-bottom: 10px;
@@ -398,7 +396,7 @@ body {
     line-height: 140%;
     letter-spacing: 0.2px;
     color: #55626e;
-    border:1px solid red;
+    /* border:1px solid red; */
   }
   
   .best-value-text {
@@ -406,10 +404,11 @@ body {
     color: #0b76e0;
     font-weight: 600;
     font-size: 16px;
+    /* text-align: center; */
     align-items: center;
     font-weight: 600;
     font-size: 12px;
-    margin-top: 7px;
+    margin-top: 10px;
   }
 
   .fire {
@@ -462,7 +461,7 @@ body {
     font-weight: 500;
     font-size: 0.8rem;
     color: #55626e;
-    border: 1px solid black;
+    /* border: 1px solid black; */
   }
 
   .zero-one {
@@ -512,17 +511,21 @@ body {
   }
 
   .show-more-div-desktop {
-    margin-top: -30px;
-    display: block;
+    margin-top: -45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-left: 180px;
     font-size: 14px;
     color: #55626e;
+    /* border: 1px solid blue; */
   }
 
   .show-more {
+    /* border: 1px solid red; */
     width: 88px;
     height: 20px;
-    font-weight: 600;
+    font-weight:600;
     font-size: 14px;
   }
 
